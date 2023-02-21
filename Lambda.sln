@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDynamoDbLambda", "Sim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleS3Lambda", "SimpleS3Lambda\src\SimpleS3Lambda\SimpleS3Lambda.csproj", "{6061D663-B14B-4C9F-883E-9DDE239B104F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApiLambda", "SimpleApiLambda\SimpleApiLambda.csproj", "{3C91F4E8-1F73-4B01-89CF-709E7FE02220}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{6061D663-B14B-4C9F-883E-9DDE239B104F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6061D663-B14B-4C9F-883E-9DDE239B104F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6061D663-B14B-4C9F-883E-9DDE239B104F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C91F4E8-1F73-4B01-89CF-709E7FE02220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C91F4E8-1F73-4B01-89CF-709E7FE02220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C91F4E8-1F73-4B01-89CF-709E7FE02220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C91F4E8-1F73-4B01-89CF-709E7FE02220}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
