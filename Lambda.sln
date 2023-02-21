@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSqsLambda", "SimpleSq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSnsLambda", "SimpleSnsLambda\src\SimpleSnsLambda\SimpleSnsLambda.csproj", "{24ECE614-75C4-4340-AE3A-1DC368869CD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDynamoDbLambda", "SimpleDynamoDbLambda\src\SimpleDynamoDbLambda\SimpleDynamoDbLambda.csproj", "{8EDDE00A-932F-423D-B070-8D7EDABA46BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{24ECE614-75C4-4340-AE3A-1DC368869CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24ECE614-75C4-4340-AE3A-1DC368869CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24ECE614-75C4-4340-AE3A-1DC368869CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDDE00A-932F-423D-B070-8D7EDABA46BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDDE00A-932F-423D-B070-8D7EDABA46BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDDE00A-932F-423D-B070-8D7EDABA46BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDDE00A-932F-423D-B070-8D7EDABA46BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
